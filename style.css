@@ -1,0 +1,142 @@
+.dl-list {
+	font-size: 18px;
+	
+}
+
+.icon {
+	position: relative;
+	bottom: -12px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+	margin-left: 2%;
+	margin-top: 2%;
+	background-color: #171717;
+}
+
+.column h3 {
+	color: white;
+	font-size: 10px;
+}
+
+.column h2 {
+	color: white;
+	font-size: 18px;
+}
+
+h2 {
+	color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+	margin: 0;
+}
+ /* <a href="resources.html" style="float:right">Resources</a> */
+body {
+    font-family: 'Open Sans',Tahoma,Verdana,Arial,Sans-Serif;
+	color: white;
+    background: #1D1D1D;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 18px;
+    text-align: center;
+    background: #0F0F0F;
+	font-size: 13px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #252525;
+	padding-left: 15%;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #BBBBBB;
+    color: black;
+}
+
+/* unvisited link */
+#bodybox a:link {
+    color:#BBBBBB;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	
+
+}
+
+/* visited link */
+#bodybox a:visited {
+    color:red;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	
+
+}
+
+/* mouse over link */
+#bodybox a:hover {
+    background-color: #252525;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	
+
+
+	
+	transition-duration: 200ms;
+	
+}
+
+/* selected link */
+#bodybox a:active {
+	background-color: #252525;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	
+
+}
+
+#bodybox {
+	border-style: solid;
+	border-width: 1.1px;
+	border-color: #2E2E2E;
+	
+	float: left;
+	margin-top: 1.2%;
+    margin-left: 15%;
+    background-color: #0F0F0F;
+	padding: 1%;
+	width: 71%;
+}
+
